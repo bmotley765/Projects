@@ -2,7 +2,7 @@ import nmap
 nm = nmap.PortScanner()
 
 target = input("Enter the target IP address: ")
-options = "-sV -sC -sS -Pn"
+options = "-sV -sC -sS -Pn scan_result"
 
 # Perform the scan
 nm.scan(target, arguments=options)
